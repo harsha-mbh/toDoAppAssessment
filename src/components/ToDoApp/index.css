@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f9fbfe;
+  min-height: 100vh;
+}
+.app-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.create-container {
+  display: flex;
+  flex-direction: column;
+}
+.field-headings {
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input-field {
+  width: 80%;
+  height: 35px;
+  background-color: #f9fbfe;
+  border-radius: 5px;
+  border: 1px solid;
+  margin-right: 10px;
+  color: black;
+  font-size: 19px;
+  padding: 10px;
+}
+.add-btn {
+  background-color: #f9fbfe;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}

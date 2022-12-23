@@ -1,0 +1,33 @@
+.to-do-element {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: solid 1px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 80%;
+}
+.label-container {
+  display: flex;
+  align-items: center;
+}
+.delete-icon {
+  font-size: 20px;
+  margin-left: auto;
+}
+.task {
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-right: 20px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.completed {
+  color: grey;
+  border-color: grey;
+  text-decoration: line-through;
+}
